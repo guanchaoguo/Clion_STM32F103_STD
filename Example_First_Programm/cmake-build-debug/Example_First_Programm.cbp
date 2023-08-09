@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Example_First_Programm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Example_First_Programm.elf">
+				<Option output="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Example_First_Programm.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DSTM32F10X_HD"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./stm_lib/inc"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./stm_lib/src"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./cmsis_boot"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./cmsis"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Example_First_Programm.elf"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Example_First_Programm.elf/fast">
+				<Option output="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Example_First_Programm.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add option="-DUSE_STDPERIPH_DRIVER"/>
+					<Add option="-DSTM32F10X_HD"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./stm_lib/inc"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./stm_lib/src"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./cmsis_boot"/>
+					<Add directory="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/./cmsis"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="/opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Example_First_Programm.elf/fast"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -j8 -f &quot;/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/STM32F103C8Tx_FLASH.ld">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis/core_cm3.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis/core_cmFunc.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis/core_cmInstr.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis_boot/startup/startup_stm32f10x_md.c">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis_boot/stm32f10x.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis_boot/stm32f10x_conf.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis_boot/system_stm32f10x.c">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/cmsis_boot/system_stm32f10x.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/main.c">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/stm_lib/inc/stm32f10x_gpio.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/stm_lib/inc/stm32f10x_rcc.h">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/stm_lib/src/stm32f10x_gpio.c">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/stm_lib/src/stm32f10x_rcc.c">
+			<Option target="Example_First_Programm.elf"/>
+		</Unit>
+		<Unit filename="/Users/jimogangdan/CLionProjects/STM32F103/Example_First_Programm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
