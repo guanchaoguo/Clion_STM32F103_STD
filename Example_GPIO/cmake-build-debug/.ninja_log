@@ -1,0 +1,7 @@
+# ninja log v5
+1	272	1691572216738297058	CMakeFiles/Example_GPIO.elf.dir/main.c.obj	44b5809e17630932
+2	273	1691572216738297892	CMakeFiles/Example_GPIO.elf.dir/cmsis_boot/system_stm32f10x.c.obj	8a4fdd7e3bf65473
+0	274	1691572216738331933	CMakeFiles/Example_GPIO.elf.dir/cmsis_boot/startup/startup_stm32f10x_md.c.obj	1731eded072a960f
+2	286	1691572216755048269	CMakeFiles/Example_GPIO.elf.dir/stm_lib/src/stm32f10x_gpio.c.obj	6e1cf046c6adf87a
+2	289	1691572216758064478	CMakeFiles/Example_GPIO.elf.dir/stm_lib/src/stm32f10x_rcc.c.obj	c0e7a484cb8ea517
+289	418	1691572216861964658	Example_GPIO.elf	f719de70a1416d02
